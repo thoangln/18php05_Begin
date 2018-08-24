@@ -1,0 +1,38 @@
+body{
+	border-collapse: collapse;
+	border: 1px solid #6C6767;
+	padding: 5px;
+	width: 60%;
+	height: 700px;
+	font-family: Arial;
+}
+
+.avatar{
+	text-align: center;
+	vertical-align: middle;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+.name {
+	color: #3D3C3C;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menu{
+	color: #08B210;
+	font-size: 18px;
+	font-weight: bold;
+}
+.content_left{
+	float: left;
+	padding: 15px;
+	width: 45%;
+	text-align: left;
+}
+.content_right{
+	padding: 15px;
+	text-align: left;
+	width: 45%;
+	float: right;
+}
