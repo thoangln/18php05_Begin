@@ -61,10 +61,10 @@ header, footer, .hero, .body, .sidebar{
 		margin-right: 1%;
 	}
 	.ad{
-		height: 150px;
+		height: 170px;
 		width: 25%;
 		float: right;
-		line-height: 150px;
+		line-height: 170px;
 		text-align: center;
 	}
 	.body{
