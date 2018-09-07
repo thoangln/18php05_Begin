@@ -11,7 +11,7 @@ header, footer, .hero, .body, .sidebar{
 	background-color: #3DE6CC;
 	text-align: center;
 }
-@media screen and (max-width: 1440px){
+@media screen{
 	header{
 		margin-top: 5px;
 		margin-bottom: 5px;
