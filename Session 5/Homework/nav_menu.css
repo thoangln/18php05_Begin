@@ -1,0 +1,36 @@
+.div1{
+	width: 600px;
+	height: 300px; 
+	box-shadow: 5px 5px 5px #8C8383;
+	border: 1px solid #383535;
+}
+h1{
+	margin-bottom: 0px;
+}
+.div1 div{
+	height: 50px;
+}
+ul li{
+	background-color: #1D5DC6;
+	margin-top: 20px;
+	display: inline;
+	font-weight: bold;
+	padding: 13px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 15%;
+	list-style-type: none;
+}
+ul li a:hover{
+	color: #A6A822;
+}
+a{
+	border: 1px solid white;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+}
