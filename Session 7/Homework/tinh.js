@@ -1,12 +1,20 @@
-for (var i = 1; i <= 20; i++) {
-	if (i % 15 == 0) {
-		document.write(i + ' chia hết cho 15');
-		document.write('<br>');
-	} else if (i % 5 == 0) {
-		document.write(i + ' chia hết cho 5 <br>');
-	} else if (i % 3 == 0) {
-		document.write(i + ' chia hết cho 3 <br>');
-	} else {
-		document.write(i + ' không chia hết cho 3, 5, 15 <br>');
-	};
+function Sumab() {
+	var a= document.getElementById("a").value;
+    var b= document.getElementById("b").value;
+	document.getElementById("kq").value = parseInt(a) + parseInt(b);
+}
+function Subab() {
+	var a= document.getElementById("a").value;
+    var b= document.getElementById("b").value;
+	document.getElementById("kq").value = parseInt(a) - parseInt(b);
+}
+function Mulab() {
+	var a= document.getElementById("a").value;
+    var b= document.getElementById("b").value;
+	document.getElementById("kq").value = parseInt(a) * parseInt(b);
+}
+function Divab() {
+	var a= document.getElementById("a").value;
+    var b= document.getElementById("b").value;
+	document.getElementById("kq").value = parseInt(a) / parseInt(b);
 }
