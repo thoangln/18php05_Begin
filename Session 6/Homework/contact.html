@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Huế</title>
+	<meta name="description" content="Huế, Dư âm của huyền thoại!">
+	<meta name="keywords" content="Huế, huyền thoại">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="shortcut icon" type="image/png" href="image/favicon.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+	<header id="home">
+		<div class="slogan">
+			<a href="index.html"><img src="image/nav.jpg"></a>
+			<p class="search"><input type="text" name="search" placeholder="Tìm kiếm"><i class="material-icons">search</i></p>
+			<p class="p_slogan">Huế, Dư âm của huyền thoại!</p>
+		</div>
+		<a class="icon" onclick="myFunction2()">
+		    <img src="image/nav-icon.png">
+		</a>
+		<div id="nav">
+			<ul>
+				<li>
+					<a href="index.html"> Trang chủ</a>
+				</li>
+				<li>
+					<a href="#"> Tin tức</a>
+				</li>
+				<li>
+					<a href="#"> Địa điểm checkin</a>
+				</li>
+				<li>
+					<a href="#"> Địa điểm ẩm thực</a>
+				</li>
+				<li>
+					<a href="contact.html"> Liên hệ</a>
+				</li>
+				<li>
+					<a href="about.html"> Giới thiệu</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<div class="container">
+		<h2>Liên hệ chúng tôi</h2>
+		<form method="post" action="#">
+			<p>
+				<label>Họ và tên</label><br>
+				<input class="input" type="text" name="name" placeholder="Lê Như Thoang" required>
+			</p>
+			<p>
+				<label>Email</label><br>
+				<input class="input" type="email" name="email" placeholder="lenhuthoang@gmail.com" required>
+			</p>
+			<p>
+				<label>Số điện thoại</label><br>
+				<input class="input" type="tel" name="phone" placeholder="0123456789" required>
+			</p>
+			<p>
+				<label>Giới tính</label><br>
+				<input type="radio" name="gender" value="male" checked> Nam
+				<input type="radio" name="gender" value="female"> Nữ
+			</p>
+			<p>
+				<label>Thông điệp</label><br>
+				<textarea name="message" rows="10">
+				</textarea>
+			</p>
+			<p>
+				<input type="submit" id="submit" name="submit" value="Gửi">
+			</p>
+		</form>
+	</div>
+	<footer>
+		<div>
+			<img src="image/fb.png">
+			<img src="image/insta.png">
+			<img src="image/google-plus.png">
+			<img src="image/twitter.png">
+		</div>
+		Trang thông tin về cố đô Huế
+		<br>
+		&copy Design by Thoang Đẹp Trai
+	</footer>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
