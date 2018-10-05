@@ -17,9 +17,9 @@ $("#submit").click(function() {
 			} else if (($('#id2').val() > Date.now()) || ($('#id2').val() <= 1900)){
 				$(".lb2").html("Năm sinh lớn hơn 1900, nhỏ hơn năm hiện tại");
 			} else if ($('input[name = gender]:checked').val() == "Nam"){
-			window.location.assign("nam.html")
+			window.location.assign("nam.html");
 			} else if ($('input[name = gender]:checked').val() == "Nu"){
-			window.location.assign("nu.html")
+			window.location.assign("nu.html");
 			} else {
 				$(".lb"+i).html("");
 			}

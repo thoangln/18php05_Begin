@@ -1,0 +1,32 @@
+h1{
+	color: #167F34;
+	text-align: center;	
+}
+a img{
+	width: 50px;
+	height: 50px;
+}
+.product{
+	border: 1px solid #727272;
+	border-radius: 10px;
+	float: left;
+	text-align: center;
+	margin: 2px;
+	width: 19.5%;
+	height: 250px;
+}
+.product img{
+	width: 120px;
+	height: 100px;
+}
+.product input{
+	font-weight: bold;
+	width: 70px;
+	height: 30px;
+	color: #3C3A3A;
+	background-color: #3BA12A;
+}
+.product input:hover{
+	background-color: #888585;
+	color: #AE532B;
+}
