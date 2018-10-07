@@ -2,44 +2,55 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Shop Dép</title>
 	<link rel="stylesheet" type="text/css" href="shop.css">
 </head>
 <body>
 	<h1>Shopping Vui vẻ nha!! Hihi</h1>
-	<a href="cart.html"><img src="image/shop_icon.png"></a>
+	<a id="cart"><h4>Xem giỏ hàng: <img src="image/shop_icon.png"></h4></a>
 	<div class="container">
 		<div class="product">
-			<h4>Dép tổ ong thắt nơ</h4>
-			<img src="image/dep1.jpg">
-			<p>200.000đ</p>
-			<input type="button" name="buy" id="buy1" value="Mua">
+			<h4 id="dep_1">Dép tổ ong thắt nơ</h4>
+			<img id="img_dep_1" src="image/dep1.jpg">
+			<p id="price_1">200.000đ </p>
+			Số lượng <input type="number" name="num" id="num_of_1" value="1">
+			<br>
+			<p><input type="button" name="buy" id="buy1" value="Mua"></p>
 		</div>
 		<div class="product">
-			<h4>Dép tổ ong trong suốt</h4>
-			<img src="image/dep2.jpg">
-			<p>200.000đ</p>
-			<input type="button" name="buy" id="buy2" value="Mua">
+			<h4 id="dep_2">Dép tổ ong trong suốt</h4>
+			<img id="img_dep_2" src="image/dep2.jpg">
+			<p id="price_2">200.000đ</p>
+			Số lượng <input type="number" name="num" id="num_of_2" value="1">
+			<br>
+			<p><input type="button" name="buy" id="buy2" value="Mua"></p>
 		</div>
 		<div class="product">
-			<h4>Dép tổ ong đi mưa</h4>
-			<img src="image/dep3.jpg">
-			<p>200.000đ</p>
-			<input type="button" name="buy" id="buy3" value="Mua">
+			<h4 id="dep_3">Dép tổ ong đi mưa</h4>
+			<img id="img_dep_3" src="image/dep3.jpg">
+			<p id="price_3">200.000đ</p>
+			Số lượng <input type="number" name="num" id="num_of_3" value="1">
+			<br>
+			<p><input type="button" name="buy" id="buy3" value="Mua"></p>
 		</div>
 		<div class="product">
-			<h4>Dép tổ ong hiệu</h4>
-			<img src="image/dep4.jpg">
-			<p>200.000đ</p>
-			<input type="button" name="buy" id="buy4" value="Mua">
+			<h4 id="dep_4">Dép tổ ong hiệu</h4>
+			<img id="img_dep_4" src="image/dep4.jpg">
+			<p id="price_4">200.000đ</p>
+			Số lượng <input type="number" name="num" id="num_of_4" value="1">
+			<br>
+			<p><input type="button" name="buy" id="buy4" value="Mua"></p>
 		</div>
 		<div class="product">
-			<h4>Dép tổ ong trong nhà</4>
-			<img src="image/dep5.jpg">
-			<p>200.000đ</p>	
-			<input type="button" name="buy" id="buy5" value="Mua">
+			<h4 id="dep_5">Dép tổ ong trong nhà</h4>
+			<img id="img_dep_5" src="image/dep5.jpg">
+			<p id="price_5">200.000đ</p>	
+			Số lượng <input type="number" name="num" id="num_of_5" value="1">
+			<br>
+			<p><input type="button" name="buy" id="buy5" value="Mua"></p>
 		</div>
 	</div>
+	<script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
 	<script type="text/javascript" src="shop.js"></script>
 </body>
 </html>

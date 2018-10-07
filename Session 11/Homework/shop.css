@@ -2,6 +2,10 @@ h1{
 	color: #167F34;
 	text-align: center;	
 }
+h4{
+	color: #AF7026;
+	font-size: 20px;
+}
 a img{
 	width: 50px;
 	height: 50px;
@@ -13,13 +17,13 @@ a img{
 	text-align: center;
 	margin: 2px;
 	width: 19.5%;
-	height: 250px;
+	height: 300px;
 }
 .product img{
 	width: 120px;
 	height: 100px;
 }
-.product input{
+.product input[type="button"]{
 	font-weight: bold;
 	width: 70px;
 	height: 30px;
@@ -27,6 +31,12 @@ a img{
 	background-color: #3BA12A;
 }
 .product input:hover{
-	background-color: #888585;
+	background-color: #AEA8A8;
 	color: #AE532B;
+}
+.product p{
+	color: #BD7D33;
+}
+.product input[type="number"]{
+	width: 20%;
 }
