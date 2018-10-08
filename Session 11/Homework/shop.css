@@ -13,6 +13,9 @@ a img{
 button{
 	background-color: #3CE84C;
 }
+button:hover{
+	background-color: #EFC34D;
+}
 .product{
 	border: 1px solid #727272;
 	border-radius: 10px;
