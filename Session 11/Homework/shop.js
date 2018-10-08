@@ -32,8 +32,11 @@ $('#cart').click(function() {
 			if (products[i][0] == products[j][0]) {
 				products[i][3] = parseInt(products[i][3]) + parseInt(products[j][3]);
 				products.splice(j, 1);
-				i--;
+				kt = 1;
 			}
+		}
+		if (kt == 1) {
+			i--;
 		}
 	}
 	localStorage.clear();
