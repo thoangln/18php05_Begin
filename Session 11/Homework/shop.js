@@ -36,7 +36,6 @@ $('#cart').click(function() {
 			}
 		}
 	}
-	console.log(products);
 	localStorage.clear();
 	localStorage.setItem("products", JSON.stringify(products));
 	console.log(products);
