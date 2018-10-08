@@ -26,6 +26,20 @@ $('#buy5').click(function() {
 });
 
 $('#cart').click(function() {
+	for (var i = 0; i < products.length; i++) {
+		var kt = 0;
+		for (var j = i + 1; j < products.length; j++) {
+			if (products[i][0] == products[j][0]) {
+				products[i][3] = parseInt(products[i][3]) + parseInt(products[j][3]);
+				products.splice(j, 1);
+				kt = 1;
+			}
+		}
+		if (kt == 1) {
+			continue;
+		}
+	}
+	console.log(products);
 	localStorage.clear();
 	localStorage.setItem("products", JSON.stringify(products));
 	console.log(products);
