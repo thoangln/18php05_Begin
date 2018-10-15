@@ -3,7 +3,6 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {
   vertical-align: middle;
-  width: 300px;
   height: 300px;
 }
 
@@ -27,6 +26,7 @@ img {
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
+  background-color: #908A8A;
 }
 
 /* Position the "next button" to the right */
