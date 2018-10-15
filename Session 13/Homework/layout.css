@@ -1,0 +1,15 @@
+p{
+	font-weight: bold;
+}
+.ad{
+	background-color: #1B7F98;
+}
+.header, .footer, .hero, body, .sidebar{
+	background-color: #157AC8;
+	clear: left;
+}
+.brand, .global-nav, .tools, .hero-feature, .action, .article-feature, .article-listing, .sidebar-feature{
+	background-color: #3DE6CC;
+	text-align: center;
+	margin: 10px;
+}
